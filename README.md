@@ -60,8 +60,8 @@ Every link opens the notebook directly in Colab.
 ### Day 1 - setup, data processing and initial model
 | | Notebook | |
 |---|---|---|
-| 0 | [0_Test](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/0_Test.ipynb) |
-| 1 | [1_EDA_data_processing](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/1_EDA_data_processing.ipynb) |
+| 0 | [0_Test](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/0_Test.ipynb) | Test notebook, checking if everything works, with some Python basics. |
+| 1 | [1_EDA_data_processing](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/1_EDA_data_processing.ipynb) | Data processing basics, regression and classification examples and differences. |
 
 ### Day 2 - supervised learning (regression and classification), unsupervised learning
 | | Notebook | |
