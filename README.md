@@ -80,7 +80,7 @@ Every link opens the notebook directly in Colab.
 | 6 | [6_Ensemble_Learning_House_Prices](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/6_Ensemble_Learning_House_Prices.ipynb) |
 | 7 | [7_Hyperparameters_Search](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/7_Hyperparameters_Search.ipynb) |
 
-### Day 4 — ANN, generative AI and agents
+### Day 4 - ANN, generative AI and agents
 
 Notebooks 9, 10 and 11 require the API key from step 2.
 
@@ -98,7 +98,7 @@ Notebooks 9–11 import [`notebooks/lares_llm.py`](notebooks/lares_llm.py) — a
 small shared module holding retries, token accounting and the model fallback
 chain. Worth reading; it is about two hundred lines.
 
-### Day 5 — private Kaggle competition
+### Day 5 - private Kaggle competition
 
 | | Notebook | |
 |---|---|---|
