@@ -1,31 +1,28 @@
 # AI Bootcamp — Foundations of AI
 
-Course material (LARES, Faculty of Electrical Engineering and Computing,
-University of Zagreb).
+Repository containts the course materials of the AI Bootcamp - Foundations of AI, one week course held by [LARES](https://www.lares.fer.hr/lares), [Faculty of Electrical Engineering and Computing](https://www.fer.unizg.hr/en?), University of Zagreb.
 
 Everything runs in **Google Colab**, in your browser. Nothing to install, no
 GPU needed, no credit card. Data and notebooks are fetched automatically from
 this repository.
 
-The same information as a printable document: [`docs/setup_guide.pdf`](docs/setup_guide.pdf).
-
 ---
 
-## Before the course (about 10 minutes)
+## At the beginning of the course (cca. 10 minutes)
 
 > **Use a personal Google account (`@gmail.com`), not a corporate one.**
 > Managed Google Workspace accounts frequently have Colab or Google AI Studio
-> blocked by an administrator, and that is not something we can fix in the room.
+> blocked by an administrator, and that is not something we can usually fix in the duration of the course.
 
 ### 1. Check that Colab works
 
-Open [**0_Test**](https://colab.research.google.com/github/hrvojenovak/ai_bootcamp_foundations/blob/main/notebooks/0_Test.ipynb),
-sign in if prompted, and run the **first cell**. If it prints `data ok: True`,
+Open [**0_Test**](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/0_Test.ipynb),
+sign in if prompted, and run the **first cell**. If it prints `23; 3.1415`,
 everything works and you can close the tab.
 
 **Do not request a GPU runtime.** The entire course runs on CPU. Free GPU quota
 is limited and shared, and spending it changes nothing except that it will not
-be there when somebody actually wants it.
+be there when we might actually need it for code execution.
 
 ### 2. Create a Gemini API key
 
@@ -53,48 +50,58 @@ secrets.
 The notebooks read it from there. It never appears in the code, and it never
 travels to GitHub with a saved copy.
 
-**If any of the three steps fails, tell us in advance.** A blocked account
-takes two minutes to diagnose by e-mail and half a morning to diagnose in a
-full room.
-
+**If any of the three steps fails, tell us as soon as possible.** 
 ---
 
 ## Notebooks
 
 Every link opens the notebook directly in Colab.
 
-### Days 1–3 — data, supervised learning, ensembles
+### Day 1 - setup, data processing and initial model
+| | Notebook | |
+|---|---|---|
+| 0 | [0_Test](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/0_Test.ipynb) |
+| 1 | [1_EDA_data_processing](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/1_EDA_data_processing.ipynb) |
 
-| | Notebook |
-|---|---|
-| 0 | [0_Test](https://colab.research.google.com/github/hrvojenovak/ai_bootcamp_foundations/blob/main/notebooks/0_Test.ipynb) |
-| 1 | [1_EDA_data_processing](https://colab.research.google.com/github/hrvojenovak/ai_bootcamp_foundations/blob/main/notebooks/1_EDA_data_processing.ipynb) |
-| 2a | [2a_Classification_Iris](https://colab.research.google.com/github/hrvojenovak/ai_bootcamp_foundations/blob/main/notebooks/2a_Classification_Iris.ipynb) |
-| 2b | [2b_Regression_House_prices](https://colab.research.google.com/github/hrvojenovak/ai_bootcamp_foundations/blob/main/notebooks/2b_Regression_House_prices.ipynb) |
-| 3a | [3a_Clustering_Mall_customers](https://colab.research.google.com/github/hrvojenovak/ai_bootcamp_foundations/blob/main/notebooks/3a_Clustering_Mall_customers.ipynb) |
-| 3b | [3b_Clustering_Wheat](https://colab.research.google.com/github/hrvojenovak/ai_bootcamp_foundations/blob/main/notebooks/3b_Clustering_Wheat.ipynb) |
-| 3c | [3c_Unsupervised_Iris](https://colab.research.google.com/github/hrvojenovak/ai_bootcamp_foundations/blob/main/notebooks/3c_Unsupervised_Iris.ipynb) |
-| 4a | [4a_NN_House_prices](https://colab.research.google.com/github/hrvojenovak/ai_bootcamp_foundations/blob/main/notebooks/4a_NN_House_prices.ipynb) |
-| 4b | [4b_NN_Iris](https://colab.research.google.com/github/hrvojenovak/ai_bootcamp_foundations/blob/main/notebooks/4b_NN_Iris.ipynb) |
-| 4c | [4c_NN_Fashion_MNIST](https://colab.research.google.com/github/hrvojenovak/ai_bootcamp_foundations/blob/main/notebooks/4c_NN_Fashion_MNIST.ipynb) |
-| 5 | [5_Cross-Validation](https://colab.research.google.com/github/hrvojenovak/ai_bootcamp_foundations/blob/main/notebooks/5_Cross-Validation.ipynb) |
-| 6 | [6_Ensemble_Learning_House_Prices](https://colab.research.google.com/github/hrvojenovak/ai_bootcamp_foundations/blob/main/notebooks/6_Ensemble_Learning_House_Prices.ipynb) |
-| 7 | [7_Hyperparameters_Search](https://colab.research.google.com/github/hrvojenovak/ai_bootcamp_foundations/blob/main/notebooks/7_Hyperparameters_Search.ipynb) |
+### Day 2 - supervised learning (regression and classification), unsupervised learning
+| | Notebook | |
+|---|---|---|
+| 2a | [2a_Classification_Iris](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/2a_Classification_Iris.ipynb) |
+| 2b | [2b_Regression_House_prices](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/2b_Regression_House_prices.ipynb) |
+| 3a | [3a_Clustering_Mall_customers](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/3a_Clustering_Mall_customers.ipynb) |
+| 3b | [3b_Clustering_Wheat](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/3b_Clustering_Wheat.ipynb) |
+| 3c | [3c_Unsupervised_Iris](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/3c_Unsupervised_Iris.ipynb) |
 
-### Day 4 — generative AI and agents
-
-These need the API key from step 2, except notebook 8.
+### Day 3 — ensembles, hyperparameters tuning and interpretability
 
 | | Notebook | |
 |---|---|---|
-| 8 | [8_YOLO_object_detection](https://colab.research.google.com/github/hrvojenovak/ai_bootcamp_foundations/blob/main/notebooks/8_YOLO_object_detection.ipynb) | Object detection with a narrow model. Runs on CPU; no API key needed. |
-| 9 | [9_LLM_first_call](https://colab.research.google.com/github/hrvojenovak/ai_bootcamp_foundations/blob/main/notebooks/9_LLM_first_call.ipynb) | The raw HTTP call, system prompts, temperature, structured output, conversations, tokenization and cost. |
-| 10 | [10_Grounding_own_PDF](https://colab.research.google.com/github/hrvojenovak/ai_bootcamp_foundations/blob/main/notebooks/10_Grounding_own_PDF.ipynb) | Retrieval over a document of our own, and what happens when that document contains an instruction aimed at the model. |
-| 11 | [11_Workflow_vs_Agent](https://colab.research.google.com/github/hrvojenovak/ai_bootcamp_foundations/blob/main/notebooks/11_Workflow_vs_Agent.ipynb) | The same task solved as a fixed pipeline and as an agent, and the case where only one of them works. |
+| 5 | [5_Cross-Validation](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/5_Cross-Validation.ipynb) |
+| 6 | [6_Ensemble_Learning_House_Prices](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/6_Ensemble_Learning_House_Prices.ipynb) |
+| 7 | [7_Hyperparameters_Search](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/7_Hyperparameters_Search.ipynb) |
+
+### Day 4 — ANN, generative AI and agents
+
+Notebooks 9, 10 and 11 require the API key from step 2.
+
+| | Notebook | |
+|---|---|---|
+| 4a | [4a_NN_House_prices](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/4a_NN_House_prices.ipynb) |
+| 4b | [4b_NN_Iris](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/4b_NN_Iris.ipynb) |
+| 4c | [4c_NN_Fashion_MNIST](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/4c_NN_Fashion_MNIST.ipynb) |
+| 8 | [8_YOLO_object_detection](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/8_YOLO_object_detection.ipynb) | Object detection with a narrow model. Runs on CPU; no API key needed. |
+| 9 | [9_LLM_first_call](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/9_LLM_first_call.ipynb) | The raw HTTP call, system prompts, temperature, structured output, conversations, tokenization and cost. |
+| 10 | [10_Grounding_own_PDF](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/10_Grounding_own_PDF.ipynb) | Retrieval over a document of our own, and what happens when that document contains an instruction aimed at the model. |
+| 11 | [11_Workflow_vs_Agent](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/11_Workflow_vs_Agent.ipynb) | The same task solved as a fixed pipeline and as an agent, and the case where only one of them works. |
 
 Notebooks 9–11 import [`notebooks/lares_llm.py`](notebooks/lares_llm.py) — a
 small shared module holding retries, token accounting and the model fallback
 chain. Worth reading; it is about two hundred lines.
+
+### Day 5 — private Kaggle competition
+
+| | Notebook | |
+|---|---|---|
 
 ---
 
@@ -131,7 +138,6 @@ nothing. You will need to install the packages the notebooks import, and set
 |---|---|
 | Colab asks for unusual permissions, or will not open | corporate account with restrictions — use a personal one |
 | "Google AI Studio is not available", or no **Create API key** button | same cause, or the account's age has not been verified |
-| `data ok: False` | run the cell once more; if it persists, tell us — the session probably could not reach GitHub |
 
 ### Errors from the model
 
@@ -160,7 +166,6 @@ nothing. You will need to install the packages the notebooks import, and set
 notebooks/    notebooks, plus lares_llm.py
 data/         datasets, images and documents — fetched automatically
 docs/         setup guide (LaTeX source and PDF)
-tools/        model_compare.py — used before delivery, not teaching material
 ```
 
 The material stays available after the course.
