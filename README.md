@@ -17,7 +17,7 @@ this repository.
 ### 1. Check that Colab works
 
 Open [**0_Test**](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/0_Test.ipynb),
-sign in if prompted, and run the **first cell**. If it prints `23; 3.1415`,
+sign in if prompted, and run the **first cell**. If it prints `data ok: True`,
 everything works and you can close the tab.
 
 **Do not request a GPU runtime.** The entire course runs on CPU. Free GPU quota
