@@ -57,11 +57,24 @@ travels to GitHub with a saved copy.
 
 Every link opens the notebook directly in Colab.
 
-### Day 1 - setup, data processing and initial model
+### Day 1 - setup, data processing and first model
+
 | | Notebook | |
 |---|---|---|
 | 0 | [0_Test](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/0_Test.ipynb) | Test notebook, checking if everything works, with some Python basics. |
-| 1 | [1_EDA_data_processing](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/1_EDA_data_processing.ipynb) | Data processing basics, regression and classification examples and differences. |
+| 1a | [1a_EDA_data_processing](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/1a_EDA_data_processing.ipynb) | Exploratory analysis and data processing on the Ames Housing dataset: missing values, outliers, encoding, scaling, train/test split and feature selection. |
+| 1b | [1b_First_model](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/1b_First_model.ipynb) | A baseline and a linear regression on the prepared data, with residual analysis. Produces the score every later model is compared against. |
+| 1c | [1c_Hands_on_two_houses](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/1c_Hands_on_two_houses.ipynb) | **HANDS-ON.** Two houses break the relationship between area and price. Find out why, and decide whether to remove them. |
+
+Optional, not covered during the course:
+
+| | Notebook | |
+|---|---|---|
+| 1x | [1x_Going_further_feature_selection](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/1x_Going_further_feature_selection.ipynb) | Wrapper and embedded feature selection methods, continuing Part 5 of 1a. |
+| 1y | [1y_Going_further_classification](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/1y_Going_further_classification.ipynb) | The same processing steps applied to a classification problem, on the Iris dataset used again on day 2. |
+
+Notebooks 1b and 1x read the train/test split saved by 1a. The Ames Housing
+dataset is used throughout the day.
 
 ### Day 2 - supervised learning (regression and classification), unsupervised learning
 | | Notebook | |
