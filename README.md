@@ -77,21 +77,21 @@ Notebooks 1b and 1x read the train/test split saved by 1a. The Ames Housing
 dataset is used throughout the day.
 
 ### Day 2 - supervised learning (regression and classification), unsupervised learning
+
 | | Notebook | |
 |---|---|---|
-| 2a | [2a_Classification_Iris](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/2a_Classification_Iris.ipynb) |
-| 2b | [2b_Regression_House_prices](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/2b_Regression_House_prices.ipynb) |
-| 3a | [3a_Clustering_Mall_customers](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/3a_Clustering_Mall_customers.ipynb) |
-| 3b | [3b_Clustering_Wheat](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/3b_Clustering_Wheat.ipynb) |
-| 3c | [3c_Unsupervised_Iris](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/3c_Unsupervised_Iris.ipynb) |
+| 2a | [2a_Regression_Fundamentals](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/2a_Regression_Fundamentals.ipynb) | |
+| 2b | [2b_KNN_Classification](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/2b_KNN_Classification.ipynb) | |
+| 2c | [2c_Logistic_Regression](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/2c_Logistic_Regression.ipynb) | |
+| 2d | [2d_Decision_Trees_and_SVM](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/2d_Decision_Trees_and_SVM.ipynb) | |
 
 ### Day 3 — ensembles, hyperparameters tuning and interpretability
 
 | | Notebook | |
 |---|---|---|
-| 5 | [5_Cross-Validation](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/5_Cross-Validation.ipynb) |
-| 6 | [6_Ensemble_Learning_House_Prices](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/6_Ensemble_Learning_House_Prices.ipynb) |
-| 7 | [7_Hyperparameters_Search](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/7_Hyperparameters_Search.ipynb) |
+| 5 | [5_Cross-Validation](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/5_Cross-Validation.ipynb) | Cross-validation strategies and hyperparameter tuning. |
+| 6 | [6_Ensemble_Learning_House_Prices](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/6_Ensemble_Learning_House_Prices.ipynb) | Random forest, gradient boosting, and stacking on house prices. |
+| 7 | [7_Hyperparameters_Search](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/7_Hyperparameters_Search.ipynb) | Grid search, random search, and Bayesian optimization for hyperparameter tuning. |
 
 ### Day 4 - ANN, generative AI and agents
 
