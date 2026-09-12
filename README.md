@@ -78,12 +78,13 @@ dataset is used throughout the day.
 
 ### Day 2 - supervised learning (regression and classification), unsupervised learning
 
-| | Notebook | |
-|---|---|---|
+|    | Notebook                                                                                                                                                            |                                                                                                                                           |
+|----|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | 2a | [2a_Regression_Fundamentals](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/2a_Regression_Fundamentals.ipynb) | Simple linear regression on one housing feature, progressively adding more features, then Ridge and Lasso regularization on the full set. |
-| 2b | [2b_KNN_Classification](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/2b_KNN_Classification.ipynb) | K-Nearest Neighbors classification on the Iris dataset, exploring how the number of neighbours changes the decision boundary. |
-| 2c | [2c_Logistic_Regression](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/2c_Logistic_Regression.ipynb) | Binary logistic regression boundaries, their linear limitation, and extension to three Iris classes with softmax. |
-| 2d | [2d_Decision_Trees_and_SVM](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/2d_Decision_Trees_and_SVM.ipynb) | Decision tree on Iris petals, then SVM margins and kernel comparison on small 2D datasets. |
+| 2b | [2b_KNN_Classification](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/2b_KNN_Classification.ipynb)           | K-Nearest Neighbors classification on the Iris dataset, exploring how the number of neighbours changes the decision boundary.             |
+| 2c | [2c_Logistic_Regression](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/2c_Logistic_Regression.ipynb)         | Binary logistic regression boundaries, their linear limitation, and extension to three Iris classes with softmax.                         |
+| 2d | [2d_Decision_Trees_and_SVM](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/2d_Decision_Trees_and_SVM.ipynb)   | Decision tree on Iris petals, then SVM margins and kernel comparison on small 2D datasets.                                                |
+| 3  | [3_Unsupervised_learning](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/3_Unsupervised_learning.ipynb)     | Unsupervised learning with K-means clustering, hierarchical clustering, and PCA.                                                          |
 
 ### Day 3 — ensembles, hyperparameters tuning and interpretability
 
