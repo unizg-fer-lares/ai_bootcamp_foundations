@@ -96,21 +96,26 @@ dataset is used throughout the day.
 
 ### Day 4 - ANN, generative AI and agents
 
-Notebooks 9, 10 and 11 require the API key from step 2.
+Notebooks 4b, 4c and 4d require the API key from step 2.
 
 | | Notebook | |
 |---|---|---|
-| 4a | [4a_NN_House_prices](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/4a_NN_House_prices.ipynb) |
-| 4b | [4b_NN_Iris](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/4b_NN_Iris.ipynb) |
-| 4c | [4c_NN_Fashion_MNIST](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/4c_NN_Fashion_MNIST.ipynb) |
-| 8 | [8_YOLO_object_detection](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/8_YOLO_object_detection.ipynb) | Object detection with a narrow model. Runs on CPU; no API key needed. |
-| 9 | [9_LLM_first_call](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/9_LLM_first_call.ipynb) | The raw HTTP call, system prompts, temperature, structured output, conversations, tokenization and cost. |
-| 10 | [10_Grounding_own_PDF](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/10_Grounding_own_PDF.ipynb) | Retrieval over a document of our own, and what happens when that document contains an instruction aimed at the model. |
-| 11 | [11_Workflow_vs_Agent](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/11_Workflow_vs_Agent.ipynb) | The same task solved as a fixed pipeline and as an agent, and the case where only one of them works. |
+| 4a | [4a_YOLO_object_detection](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/8_YOLO_object_detection.ipynb) | Object detection with a narrow model. |
+| 4b | [4b_LLM_first_call](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/9_LLM_first_call.ipynb) | The raw HTTP call, system prompts, temperature, structured output, conversations, tokenization and cost. |
+| 4c | [4c_Grounding_own_PDF](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/10_Grounding_own_PDF.ipynb) | Retrieval over a document of our own, and what happens when that document contains an instruction aimed at the model. |
+| 4d | [4d_Workflow_vs_Agent](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/11_Workflow_vs_Agent.ipynb) | The same task solved as a fixed pipeline and as an agent, and the case where only one of them works. |
 
-Notebooks 9–11 import [`notebooks/lares_llm.py`](notebooks/lares_llm.py) — a
+Notebooks 4b-4d import [`notebooks/lares_llm.py`](notebooks/lares_llm.py) — a
 small shared module holding retries, token accounting and the model fallback
 chain. Worth reading; it is about two hundred lines.
+
+Optional, not covered during the course:
+
+| | Notebook | |
+|---|---|---|
+| 4x | [4x_NN_House_prices](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/4a_NN_House_prices.ipynb) |
+| 4y | [4y_NN_Iris](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/4b_NN_Iris.ipynb) |
+| 4z | [4z_NN_Fashion_MNIST](https://colab.research.google.com/github/unizg-fer-lares/ai_bootcamp_foundations/blob/main/notebooks/4c_NN_Fashion_MNIST.ipynb) |
 
 ### Day 5 - private Kaggle competition
 
